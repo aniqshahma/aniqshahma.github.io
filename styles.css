@@ -220,15 +220,15 @@ h1.name {
 }
 
 .skill-level span {
-	font-size: 35px;
-	font-weight: 300;
+	font-size: 25px;
+	font-weight: 100;
 	color: #5B6A9A;
 	vertical-align: top;
 }
 
 .skill-level h2 {
-	font-size: 95px;
-	font-weight: 300;
+	font-size: 75px;
+	font-weight: 200;
 	display: inline-block;
 	vertical-align: top;
 	color: #5B6A9A;
@@ -245,15 +245,15 @@ h1.name {
 }
 
 .skill-meta h3 {
-	font-size: 20px;
-	font-weight: 800;
+	font-size: 10px;
+	font-weight: 200;
 	color: #5B6A9A;
 	margin-bottom: 5px;
 }
 
 .skill-meta span{
 	color: #81899C;
-	line-height: 20px;
+	line-height: 10px;
 	font-size: 16px;
 }
 
@@ -370,21 +370,21 @@ li .description {
 
 @media(max-width: 1024px){
 	.container {
-		padding: 15px;
+		padding: 10px;
 		margin: 0px auto;
 	}
 	.cards {
-		margin-top: 250px;
+		margin-top: 200px;
 	}
 }
 
 @media(max-width: 768px){
 	.container {
-		padding: 15px;
+		padding: 10px;
 		margin: 0px auto;
 	}
 	.cards {
-		margin-top: 320px;
+		margin-top: 220px;
 	}
 
 	.card {
@@ -415,13 +415,14 @@ li .description {
 
 @media(max-width: 425px) {
 	h1.name {
-		font-size: 40px;
+		margin-top: 60px;
+		font-size: 50px;
 	}
 
 	.card , .sections {
 		width: 100%;
 		height: auto;
-		margin: 10px 0;
+		margin: 50px 0;
 		float: left;
 	}
 
@@ -431,20 +432,24 @@ li .description {
 
 	.job-title {
 		position: absolute;
-		font-size: 15px;
-		top: -40px;
-		right: 20px;
+		font-size: 10px;
+		top: 0px;
+		right: 10px;
 		padding: 10px
+	}
+	.email {
+	margin-top: 10px;
+	font-size: 15px
 	}
 
 	.lead {
-		margin-top: 15px;
+		margin-top: 40px;
 		font-size: 20px;
-		line-height: 28px;
+		line-height: 70px;
 	}
 	.container {
 		margin: 0px;
-		padding: 0 15px;
+		padding: 0 10px;
 	}
 	footer {
 		margin-top: 2050px;
